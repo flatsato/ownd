@@ -1,0 +1,83 @@
+/*デフォルト詳細色指定*/
+
+
+/*背景*/
+
+.u-base-bg-clr {
+    color: #999;
+    background: #fff;
+}
+
+
+/*テキスト*/
+
+.u-txt-clr {
+    color: #999 !important;
+}
+
+
+/*リンクテキスト*/
+
+.u-lnk-clr {
+    color: #999;
+}
+
+
+/*メインナビ*/
+
+.u-nav-bg-clr {
+    background-color: #fff;
+}
+
+
+/*メインナビテキスト*/
+
+.u-nav-clr {
+    color: #999;
+}
+
+
+/*ボタン*/
+
+.u-btn-bg-clr {
+    background-color: #999;
+}
+
+
+/*ボタンテキスト*/
+
+.u-btn-clr {
+    color: #fff;
+}
+
+
+/*サイトタイトル*/
+
+.u-site-clr {
+    color: #999;
+}
+
+
+/*タイトル*/
+
+.u-ttl-blk-bdr-clr {
+    border-color: #000;
+}
+
+
+/*ボーダー*/
+
+.u-bdr-clr {
+    border-color: #000;
+}
+
+
+/*アクセント*/
+
+.u-acnt-bg-clr {
+    background-color: #fff;
+}
+
+.u-acnt-bdr-clr {
+    border-color: #000;
+}
