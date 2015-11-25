@@ -1,0 +1,89 @@
+/*========= カラーとフォント =========*/
+
+
+/*背景*/
+
+.u-base-bg-clr {
+    background: #f7f5f1;
+}
+
+
+/*テキスト*/
+
+.u-txt-clr {
+    color: #333;
+}
+
+.u-font {
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+}
+
+
+/*リンクテキスト*/
+
+.u-lnk-clr {
+    color: #a3622d;
+}
+
+
+/*メインナビ*/
+
+.u-nav-bg-clr {
+    background-color: #fff;
+}
+
+
+/*メインナビテキスト*/
+
+.u-nav-clr {
+    color: #a3622d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*ボタン*/
+
+.u-btn-clr {
+    background-color: #a36233;
+}
+
+
+/*ボタンテキスト*/
+
+.u-btn-clr {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/*サイトタイトル*/
+
+.u-site-clr {
+    color: #a3622d;
+}
+
+
+/*タイトル*/
+
+.u-ttl-blk-bdr-clr {
+    border-color: #3ba791;
+}
+
+
+/*ボーダー*/
+
+.u-bdr-clr {
+    border-color: #a36233;
+}
+
+
+/*アクセント*/
+
+.u-acnt-bg-clr {
+    background-color: #3ba791;
+}
+
+.u-acnt-bdr-clr {
+    border-color: #a36233;
+}
