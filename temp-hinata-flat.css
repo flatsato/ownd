@@ -1,0 +1,277 @@
+/*========= カラーとフォント =========*/
+
+
+/*背景*/
+
+.u-base-bg-clr {
+    background: #f7f5f1;
+}
+
+
+/*テキスト*/
+
+.u-txt-clr {
+    color: #333;
+}
+
+.u-font {
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+}
+
+
+/*リンクテキスト*/
+
+.u-lnk-clr {
+    color: #03ba79 !important;
+    text-decoration: underline;
+}
+
+a:visited.u-lnk-clr {
+    opacity: 0.9 !important;
+}
+
+a:hover.u-lnk-clr {
+    opacity: 0.7 !important;
+    text-decoration: none;
+}
+
+
+/*メインナビ*/
+
+.u-nav-bg-clr {
+    background-color: #fff;
+}
+
+
+/*メインナビテキスト*/
+
+.u-nav-clr {
+    color: #a3622d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*ボタン*/
+
+.u-btn-clr {
+    background-color: #a36233;
+}
+
+
+/*ボタンテキスト*/
+
+.u-btn-clr {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/*サイトタイトル*/
+
+.u-site-clr {
+    color: #a3622d;
+}
+
+
+/*タイトル*/
+
+.u-ttl-blk-bdr-clr {
+    border-color: #3ba791;
+}
+
+
+/*ボーダー*/
+
+.u-bdr-clr {
+    border-color: #a36233;
+}
+
+
+/*アクセント*/
+
+.u-acnt-bg-clr {
+    background-color: #3ba791;
+}
+
+.u-acnt-bdr-clr {
+    border-color: #a36233;
+}
+
+
+/*========= 【PC】テンプレートHINATAカスタマイズ ここから =========*/
+
+body {
+    font-size: 14px;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    /*    font-family: "游明朝体", "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;*/
+}
+
+
+/*ヘッダー*/
+
+.common-header__outer {
+    border-bottom: none;
+}
+
+
+/*見出し*/
+
+.heading-lv1__text {
+    color: #a3622d;
+    font-weight: normal;
+}
+
+.heading-lv2__text {
+    color: #3ba791;
+}
+
+
+/*========= 【ブロック】Instagram =========*/
+
+
+/*閉じる*/
+
+.pswp__close__item {
+    border-color: #a36233;
+}
+
+
+/*前次*/
+
+.pswp__button--arrow--left::before,
+.pswp__button--arrow--right::before {
+    border-color: #a36233;
+}
+
+
+/*リンク*/
+
+.pswp__caption__link {
+    color: #a36233;
+}
+
+
+/*========= 【ブロック】記事一覧 =========*/
+
+
+/*共通*/
+
+.blog-list .blog-item__inner {}
+
+.blog-list .blog-title__text {
+    font-size: 20px;
+    color: #3ba791 !important;
+}
+
+.blog-list .blog-item__date {
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+.blog-list .blog-title__text a {
+    color: #a3622d;
+}
+
+
+/*グリッド*/
+
+.blog-list--grid .blog-item__header {
+    margin: -4px -4px 0;
+    background: #a36233;
+    border-bottom: none;
+}
+
+.blog-list--grid .blog-item__date {
+    margin: 0;
+}
+
+.blog-list--grid .blog-item__header .u-txt-clr {
+    color: #ffffff;
+}
+
+
+/*========= 【ブロック】ブログ詳細 =========*/
+
+
+/*日付*/
+
+.page__main--blog-detail .blog-article__date {
+    font-weight: normal;
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+
+/*記事タイトル*/
+
+.page__main--blog-detail .blog-title__text {
+    color: #3ba791;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/*記事の文字*/
+
+.page__main--blog-detail .blog-body {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+
+/*記事の段落*/
+
+.page__main--blog-detail .blog-body p {
+    margin: 0 0 2em;
+}
+
+
+/*========= 【全体】テンプレートHINATAカスタマイズ ここまで =========*/
+
+
+/*========= 【スマートフォン】テンプレートHINATAカスタマイズ ここから =========*/
+
+/*========= 【ブロック】記事一覧 =========*/
+
+
+/*共通*/
+
+.blog-list .blog-title__text {
+    font-size: 17px;
+}
+
+
+/*グリッド*/
+
+.blog-list--grid .blog-item__header {
+    margin: -2px -2px 0;
+}
+
+/*========= 【ブロック】ブログ詳細 =========*/
+
+
+/*日付*/
+
+.page__main--blog-detail .blog-article__date {
+    font-weight: normal;
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+
+/*記事タイトル*/
+
+.page__main--blog-detail .blog-title__text {
+    font-size: 20px;
+}
+
+
+/*記事の文字*/
+
+.page__main--blog-detail .blog-body {
+    font-size: 16px;
+}
+
+
+/*========= 【スマートフォン】テンプレートHINATAカスタマイズ ここまで =========*/
