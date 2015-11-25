@@ -1,0 +1,317 @@
+/**** 【サイドバー】共通 ****/
+
+.page__main--blog-detail .complementary {}
+
+.page__main--blog-detail .complementary__heading {
+    font-size: 14px;
+}
+
+.page__main--blog-detail .complementary__heading:before {
+    content: '◆';
+    color: #666;
+    margin: 0 4px 0 0;
+}
+
+.page__main--blog-detail .complementary__heading:after {
+    content: '';
+    color: #f00;
+    margin: 0 0 0 4px;
+}
+
+
+/**** 【ブログ詳細parts】テキスト ****/
+
+.page__main--blog-detail .complementary--text {}
+
+.page__main--blog-detail .complementary--text .txt {}
+
+
+/**** 【ブログ詳細parts】画像 ****/
+
+.page__main--blog-detail .complementary--image {}
+
+.page__main--blog-detail .complementary--image .img {}
+
+.page__main--blog-detail .complementary--image .img__item {}
+
+
+/**** 【ブログ詳細parts】ビデオ ****/
+
+.page__main--blog-detail .complementary--video {}
+
+.page__main--blog-detail .complementary--video .movie {}
+
+
+/**** 【ブログ詳細parts】リンク ****/
+
+.page__main--blog-detail .complementary--quote {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp .ogp__action {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp .ogp__img {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp .ogp__img-item {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp .ogp__body {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp .ogp__img {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp .ogp__title {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp .ogp__text {}
+
+.page__main--blog-detail .complementary--quote .quote--web .ogp .ogp__site {}
+
+
+/**** 【ブログ詳細parts】区切り線 ****/
+
+.page__main--blog-detail .complementary--divider {}
+
+.page__main--blog-detail .complementary--divider .divider {}
+
+
+/**** 【ブログ詳細parts】ボタン ****/
+
+.page__main--blog-detail .complementary--button {}
+
+.page__main--blog-detail .complementary--button .btn {}
+
+.page__main--blog-detail .complementary--button .btn__item {}
+
+
+/**** 【ブログ詳細parts】フォロー ****/
+
+.page__main--blog-detail .complementary--siteFollow {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__img {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__img-item {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__body {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__title {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__title-inner {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__btn-outer {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__btn {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__btn-text {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__icon {}
+
+.page__main--blog-detail .complementary--siteFollow .site-follow__btn {}
+
+
+/**** 【ブログ詳細parts】シェア ****/
+
+.page__main--blog-detail .complementary--shareButton {}
+
+.page__main--blog-detail .complementary--shareButton .share {
+    text-align: center;
+}
+
+
+/*1サークル*/
+
+.page__main--blog-detail .share--circle {}
+
+.page__main--blog-detail .share--circle .share__btn--circle {
+    background: #fff;
+    border: 1px solid #666;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px
+}
+
+.page__main--blog-detail .share--circle .share__btn--circle .icon {}
+
+
+/*2SNSボタン大*/
+
+.page__main--blog-detail .share--square {}
+
+.page__main--blog-detail .share--square .share__btn-outer {}
+
+.page__main--blog-detail .share--square .share__balloon {}
+
+.page__main--blog-detail .share--square .share__balloon-txt {}
+
+.page__main--blog-detail .share--square .share__btn--square {}
+
+.page__main--blog-detail .share--square .share__btn--square .icon {}
+
+
+/*3角丸*/
+
+.page__main--blog-detail .share--filled {}
+
+.page__main--blog-detail .share--filled .share__btn {}
+
+.page__main--blog-detail .share--filled .share__btn .icon {}
+
+
+/*4SNSボタン小*/
+
+.page__main--blog-detail .share--thirdparty {}
+
+.page__main--blog-detail .share--thirdparty .share__btn--thirdparty {}
+
+
+/**** 【ブログ詳細parts】関連記事 ****/
+
+.complementary--relatedPosts {}
+
+
+/*グリッドM*/
+
+.related-posts--gridm {}
+
+.related-posts--gridm .related-posts__item {}
+
+.related-posts--gridm .related-posts__item-inner {}
+
+.related-posts--gridm .related-posts__img {}
+
+.related-posts--gridm .related-posts__img-item {}
+
+.related-posts--gridm .related-posts__body {}
+
+.related-posts--gridm .related-posts__title {}
+
+.related-posts--gridm .related-posts__title-txt {}
+
+
+/*グリッドL*/
+
+.related-posts--gridl {}
+
+.related-posts__item {}
+
+.related-posts__img {}
+
+.related-posts__img-item {}
+
+.related-posts__post-date {}
+
+.related-posts__title {}
+
+
+/*リストM*/
+
+.related-posts--listm {}
+
+.related-posts__item {}
+
+.related-posts__title {}
+
+
+/*リストL*/
+
+.related-posts--listl {}
+
+.related-posts__item {}
+
+.related-posts__img img {}
+
+.related-posts__body {}
+
+.related-posts__title {}
+
+.related-posts__txt {}
+
+.related-posts__post-date {}
+
+
+/**** 【ブログ詳細parts】前後の記事 ****/
+
+.complementary--postPrevNext {}
+
+
+/*背景画像あり*/
+
+.pager--type1 {}
+
+.pager__list {}
+
+.pager__item {}
+
+.pager__item--next {}
+
+.pager__item--prev {}
+
+.pager__item-inner {}
+
+.pager__date {}
+
+.pager__description . {}
+
+.pager__icon {}
+
+
+/*テキストのみ*/
+
+.pager--type2 {}
+
+.pager--type2 .pager__list {}
+
+.pager--type2 .pager__item {}
+
+.pager--type2 .pager__item--next {}
+
+.pager--type2 .pager__item--prev {}
+
+.pager__item-inner {}
+
+.pager__date {}
+
+.pager__description . {}
+
+.pager__icon {}
+
+
+/**** 【ブログ詳細parts】楽天 ****/
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 {}
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 .ogp {
+    border: 10px solid #f00;
+}
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 .ogp .ogp__action {}
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 .ogp .ogp__img {}
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 .ogp .ogp__img-item {}
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 .ogp .ogp__body {}
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 .ogp .ogp__title {}
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 .ogp .ogp__text {}
+
+.page__main--blog-detail .complementary--quote .quote--楽天市場 .ogp .ogp__site {}
+
+
+/**** 【ブログ詳細parts】Amazon ****/
+
+.page__main--blog-detail .complementary--quote .quote--amazon.co.jp {}
+
+.page__main--blog-detail .complementary--quote .quote--amazon.co.jp {}
+
+.page__main--blog-detail .complementary--quote .quote--amazon.co.jp .ogp {}
+
+.page__main--blog-detail .complementary--quote .quote--amazon.co.jp .ogp__img {}
+
+.page__main--blog-detail .complementary--quote .quote--amazon.co.jp .ogp__body {}
+
+.page__main--blog-detail .complementary--quote .quote--amazon.co.jp .ogp__title {}
+
+.page__main--blog-detail .complementary--quote .quote--amazon.co.jp .ogp__text {}
+
+.page__main--blog-detail .complementary--quote .quote--amazon.co.jp .ogp__site {}
