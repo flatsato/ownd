@@ -1,82 +1,113 @@
-/* ヘッダー header*/
+/*========= 【全体】レイアウト =========*/
 
-.u-nav-bg-clr,
+body {
+    font-size: 14px;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    /* font-family: "游明朝体", "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;*/
+}
+
+
+/**** 【全体】ヘッダー header ****/
+
 .header {
+    /*    background: #2b84b2 url("https://ssl-stat.amebame.com/pub/content/8633993418/c489166992652728a49cbbaeb0ca1af8_eb0cf3453f464c5f9c9b568b3e7c09df.png") 50% 100% / 1400px auto no-repeat !important;*/
     background: #000 !important;
     color: #fff;
+    padding: 0;
+    height: 300px;
+    position: relative;
 }
 
-/*ヘッダーリンク色*/
+.header {}
+
+.header__inner {}
+
+/*リンク色*/
+
 .u-nav-bg-clr a,
-.header a {
-    color: #fff;
-}
+.header a {}
 
-
-/*フッター footer*/
-
-.footer {
-    background: #000;
-    color: #fff;
-}
-
-フッター
-
-/*デフォルト詳細色指定*/
-
-
-
-/*背景*/
-.u-base-bg-clr {
-    color: #999;
+/*背景色*/
+.u-nav-bg-clr {
     background: #fff;
 }
-/*テキスト*/
-.u-txt-clr {
-    color: #999 !important;
-}
-/*リンクテキスト*/
-.u-lnk-clr {
-    color: #999;
-}
 
-/*メインナビ*/
-.u-nav-bg-clr {
-    background-color: #fff;
-}
-/*メインナビテキスト*/
-.u-nav-clr {
-    color: #999;
-}
-/*ボタン*/
 
-.u-btn-bg-clr {
-    background-color: #999;
-}
-/*ボタンテキスト*/
-.u-btn-clr {
-    color: #fff;
-}
 /*サイトタイトル*/
 
-.u-site-clr {
-    color: #999 ;
+.header__site-info {
+    padding: 120px 0 0;
 }
 
-/*タイトル*/
-.u-ttl-blk-bdr-clr {
-    border-color: #000;
-}
-/*ボーダー*/
-.u-bdr-clr {
-    border-color: #000;
-}
-/*アクセント*/
+.header__logo {}
 
-.u-acnt-bg-clr {
-    background-color: #fff;
+.header__nav {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
-.u-acnt-bdr-clr {
-    border-color: #000;
+
+/**** 【全体】キービジュアル keyvisual ****/
+
+.keyvisual__title {
+    font-size: 38px;
+}
+
+.keyvisual__description {
+    font-size: 16px;
+}
+
+
+/**** 【全体】グローバルナビ global-nav ****/
+
+.global-nav__list {}
+
+.global-nav__item {}
+
+
+/*現在地*/
+
+.global-nav__item--active > a::after {
+    border-color: #fff;
+}
+
+
+/**** 【全体】フッター footer ****/
+
+.footer {}
+
+.footer__inner {}
+
+.footer__item {}
+
+.footer__copyright {}
+
+.powered-by {}
+
+
+/**** 【ページ】キービジュアル ****/
+
+.keyvisual {}
+
+.keyvisual__image {}
+
+
+/**** 【ページ】ページコンテナ ****/
+
+.page__container {}
+
+.page-container__main {}
+
+.page__content {}
+
+.page__main {}
+
+
+/* 【ページ】ページタイトル */
+
+.grid--title {}
+
+.grid--title .heading-lv1__text {
+    color: #a36233;
 }
