@@ -1,0 +1,312 @@
+/**** 【ページparts】テキスト ****/
+
+.grid-type--text {}
+
+.grid-type--text .txt {}
+
+.grid-type--text .txt p {}
+
+
+/**** 【ページparts】画像 ****/
+
+.grid-type--image {}
+
+.grid-type--image .img {}
+
+.grid-type--image .img .img__item {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+/**** 【ページparts】ビデオ ****/
+
+.grid-type--video {}
+
+.grid-type--video .movie {}
+
+
+/**** 【ページparts】リンク ****/
+
+.grid-type--quote {}
+
+.grid-type--quote .ogp {}
+
+.grid-type--quote .ogp .ogp__action {}
+
+.grid-type--quote .ogp .ogp__img {}
+
+.grid-type--quote .ogp .ogp__body {}
+
+.grid-type--quote .ogp .ogp__title {}
+
+.grid-type--quote .ogp .ogp__text {}
+
+.grid-type--quote .ogp .ogp__site {}
+
+
+/**** 【ページparts】区切り線 ****/
+
+.grid-type--divider {}
+
+.grid-type--divider .divider {}
+
+
+/**** 【ページparts】ボタン ****/
+
+.grid-type--button {}
+
+.grid-type--button .btn__item {}
+
+
+/**** 【ページparts】見出し ****/
+
+.grid-type--title {}
+
+.grid-type--title .heading-lv2 {}
+
+.grid-type--title .heading-lv2 .heading-lv2__text {}
+
+
+/**** 【ページparts】記事一覧 レイアウト＞List ****/
+
+.blog-list--list {}
+
+.blog-list--list .blog-item {}
+
+.blog-list--list .blog-item__inner {}
+
+.blog-list--list .blog-item__img {}
+
+.blog-list--list .blog-item__img-inner {}
+
+.blog-list--list .blog-item__body {}
+
+.blog-list--list .blog-title {}
+
+.blog-list--list .blog-title__text {}
+
+.blog-list--list .blog-item__text {}
+
+.blog-list--list .blog-item__date {}
+
+
+/**** 【ページparts】記事一覧 レイアウト＞Grid ****/
+
+.blog-list--grid {}
+
+.blog-list--grid .blog-list__inner {}
+
+.blog-list--grid .blog-item {}
+
+.blog-list--grid .blog-item__inner {}
+
+.blog-list--grid .blog-item__img {}
+
+.blog-list--grid .blog-item__img-inner {}
+
+.blog-list--grid .blog-item__body {}
+
+.blog-list--grid .blog-title {}
+
+.blog-list--grid .blog-title__text {}
+
+.blog-list--grid .blog-item__text {}
+
+.blog-list--grid .blog-item__date {}
+
+
+/**** 【ページparts】記事一覧 レイアウト＞Magazine ****/
+
+.blog-list--magazine {}
+
+.blog-list--magazine .blog-list__inner {}
+
+.blog-list--magazine .blog-item {}
+
+.blog-list--magazine .blog-item__inner {}
+
+.blog-list--magazine .blog-item__img {}
+
+.blog-list--magazine .blog-item__img-inner {}
+
+.blog-list--magazine .blog-item__body {}
+
+.blog-list--magazine .blog-title {}
+
+.blog-list--magazine .blog-title__text {}
+
+.blog-list--magazine .blog-item__text {}
+
+.blog-list--magazine .blog-item__date {}
+
+
+/**** 【ページparts】記事一覧 レイアウト＞Full ****/
+
+.blog-list--full {}
+
+.blog-list--full .blog-list__inner {}
+
+.blog-list--full .blog-item {}
+
+.blog-list--full .blog-item__inner {}
+
+.blog-list--full .blog-item__img {}
+
+.blog-list--full .blog-item__img-inner {}
+
+.blog-list--full .blog-item__body {}
+
+.blog-list--full .blog-title {}
+
+.blog-list--full .blog-title__text {}
+
+.blog-list--full .blog-item__text {}
+
+.blog-list--full .blog-item__date {}
+
+
+/*日付*/
+
+.blog-post-date {}
+
+.blog-post-date__day {}
+
+.blog-post-date__month {}
+
+.blog-post-date__month {}
+
+.blog-post-date__year {}
+
+
+/*ボタン*/
+
+.btn--summary {}
+
+.btn--summary .btn__item {}
+
+
+/**** 【ページparts】twitter ****/
+
+
+/*モジュールタイプ：ウィジット*/
+
+.grid-type--twitter {}
+
+
+/*モジュールタイプ：フィード*/
+
+.grid-type--twitterTimeline {}
+
+.grid-type--twitterTimeline .twitter-feed__item {}
+
+.grid-type--twitterTimeline .twitter-feed__body {}
+
+.grid-type--twitterTimeline .twitter-feed__img {}
+
+.grid-type--twitterTimeline .twitter-feed__text-outer {}
+
+.grid-type--twitterTimeline .twitter-feed__profile-name {}
+
+.grid-type--twitterTimeline .twitter-feed__screen-name {}
+
+.grid-type--twitterTimeline .twitter-feed__date {}
+
+.grid-type--twitterTimeline .twitter-feed__text {}
+
+.grid-type--twitterTimeline .twitter-feed-action {}
+
+.grid-type--twitterTimeline .twitter-feed-action .twitter-feed-action__item {}
+
+.grid-type--twitterTimeline .twitter-feed-action .twitter-feed-action__item .icon {}
+
+
+/**** 【ページparts】Instagram ****/
+
+.grid-type--instagramAlbum {}
+
+.grid-type--instagramAlbum .album-list {}
+
+.grid-type--instagramAlbum .album-list__item {}
+
+.grid-type--instagramAlbum .album-list__item .album-item__img {}
+
+
+/**** 【ページparts】Facebook ****/
+
+.grid-type--facebookFeed {}
+
+.grid-type--facebookFeed .facebook-feed {}
+
+.grid-type--facebookFeed .facebook-feed .facebook-feed__item {}
+
+.grid-type--facebookFeed .facebook-feed .facebook-feed__body {}
+
+.grid-type--facebookFeed .facebook-feed .facebook-feed__img {}
+
+.grid-type--facebookFeed .facebook-feed .facebook-feed__img {}
+
+.grid-type--facebookFeed .facebook-feed .facebook-feed__text-outer {}
+
+.grid-type--facebookFeed .facebook-feed .facebook-feed__date {}
+
+.grid-type--facebookFeed .facebook-feed .facebook-feed__text {}
+
+
+/**** 【ページparts】Amazon ****/
+
+.grid-type--quote .quote--amazon.co.jp {}
+
+.grid-type--quote .quote--amazon.co.jp .ogp {}
+
+.grid-type--quote .quote--amazon.co.jp .ogp .ogp__action {}
+
+.grid-type--quote .quote--amazon.co.jp .ogp .ogp__img {}
+
+.grid-type--quote .quote--amazon.co.jp .ogp .ogp__img-item {}
+
+.grid-type--quote .quote--amazon.co.jp .ogp .ogp__body {}
+
+.grid-type--quote .quote--amazon.co.jp .ogp .ogp__title {}
+
+.grid-type--quote .quote--amazon.co.jp .ogp .ogp__text {}
+
+.grid-type--quote .quote--amazon.co.jp .ogp .ogp__site {}
+
+
+/**** 【ページparts】楽天 ****/
+
+.grid-type--quote .quote--楽天市場{}
+
+.grid-type--quote .quote--楽天市場 .ogp {
+    border: 10px solid #000;
+}
+
+.grid-type--quote .quote--楽天市場 .ogp .ogp__action {}
+
+.grid-type--quote .quote--楽天市場 .ogp .ogp__img {}
+
+.grid-type--quote .quote--楽天市場 .ogp .ogp__img-item {}
+
+.grid-type--quote .quote--楽天市場 .ogp .ogp__body {}
+
+.grid-type--quote .quote--楽天市場 .ogp .ogp__title {}
+
+.grid-type--quote .quote--楽天市場 .ogp .ogp__text {}
+
+.grid-type--quote .quote--楽天市場 .ogp .ogp__site {}
+
+
+/**** 【ページparts】地図 ****/
+
+.grid-type--map {}
+
+.grid-type--map .map {}
+
+.grid-type--map .map .map__body {}
+
+
+/**** 【ページparts】商品 ****/
+
+
+/**** 【ページparts】商品一覧 ****/
